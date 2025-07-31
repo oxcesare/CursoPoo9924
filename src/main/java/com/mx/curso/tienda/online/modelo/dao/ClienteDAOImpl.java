@@ -2,6 +2,8 @@ package com.mx.curso.tienda.online.modelo.dao;
 
 import com.mx.curso.tienda.online.modelo.Cliente;
 
+import java.util.List;
+
 public class ClienteDAOImpl implements ClienteDAO {
 
     @Override
@@ -24,6 +26,11 @@ public class ClienteDAOImpl implements ClienteDAO {
     @Override
     public void eliminarCliente(long id) {
 
+    }
+
+    @Override
+    public List<Cliente> listarTodosLosClientes() {
+        return List.of();
     }
 
 }
