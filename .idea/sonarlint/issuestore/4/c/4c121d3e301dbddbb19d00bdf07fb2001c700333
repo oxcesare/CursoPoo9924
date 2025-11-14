@@ -1,0 +1,10 @@
+
+j
+java:S2095"MUse try-with-resources or close this "FileInputStream" in a "finally" clause.(ï†¨·8²·“û¥3
+U
+java:S1854"8Remove this useless assignment to local variable "file".(ï†¨·8´·“û¥3
+c
+java:S1075"ARefactor your code to get this URI from a customizable parameter.(´¬²­ùÿÿÿÿ8ÌŒ“û¥3
+F
+java:S1481")Remove this unused "file" local variable.(ï†¨·8º·“û¥3
+U	java:S106"9Replace this use of System.out or System.err by a logger.(ÖÂ³í8º·“û¥3

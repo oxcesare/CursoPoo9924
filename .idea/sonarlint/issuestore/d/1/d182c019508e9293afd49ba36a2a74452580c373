@@ -1,0 +1,18 @@
+
+g	java:S112%"FDefine and throw a dedicated exception instead of using a generic one.(ÑÈ¯ûúÿÿÿÿ8Œšíú¥3
+_
+java:S2184"BCast one of the operands of this division operation to a "double".(ÌŸú8šíú¥3
+a
+java:S3518"DMake sure "totalEmpleados" can't be zero before doing this division.(ÌŸú8Š›íú¥3
+T	java:S106"9Replace this use of System.out or System.err by a logger.(Éä¦R8Á›íú¥3
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(çÀ¼Øıÿÿÿÿ8É›íú¥3
+Z	java:S106#"9Replace this use of System.out or System.err by a logger.(ÓÙ£»şÿÿÿÿ8Ì›íú¥3
+U	java:S106("9Replace this use of System.out or System.err by a logger.(ÂÁ¥8Î›íú¥3
+Z	java:S1061"9Replace this use of System.out or System.err by a logger.(Ü¥á üÿÿÿÿ8Ó›íú¥3
+U	java:S1062"9Replace this use of System.out or System.err by a logger.(úÃšé8Ô›íú¥3
+Z	java:S1064"9Replace this use of System.out or System.err by a logger.(öğ¢èûÿÿÿÿ8Õ›íú¥3
+Z	java:S1065"9Replace this use of System.out or System.err by a logger.(–Ø»œøÿÿÿÿ8Ö›íú¥3
+U	java:S1068"9Replace this use of System.out or System.err by a logger.(²”Áã8×›íú¥3
+Z	java:S106@"9Replace this use of System.out or System.err by a logger.(Ìû¢’ûÿÿÿÿ8Ş›íú¥3
+U	java:S106A"9Replace this use of System.out or System.err by a logger.(˜ŸÚá8ß›íú¥3
+T	java:S106D"9Replace this use of System.out or System.err by a logger.(ß°Æi8à›íú¥3
