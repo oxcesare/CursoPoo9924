@@ -1,0 +1,11 @@
+
+n	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(Â£ÿÿÿÿÿ8ÑŒ«ç¬3
+f
+java:S32520"IUse static access with "javax.swing.WindowConstants" for "EXIT_ON_CLOSE".(¢¡´8úŒ«ç¬3
+U	java:S106I"9Replace this use of System.out or System.err by a logger.(íê­…8ÿŒ«ç¬3
+Z	java:S106J"9Replace this use of System.out or System.err by a logger.(“í®üÿÿÿÿ8ÿŒ«ç¬3
+Z	java:S106K"9Replace this use of System.out or System.err by a logger.(‘•Í—üÿÿÿÿ8ÿŒ«ç¬3
+U	java:S106L"9Replace this use of System.out or System.err by a logger.(ô°Ö²8€«ç¬3
+U	java:S106M"9Replace this use of System.out or System.err by a logger.(íê­…8€«ç¬3
+n
+java:S1612W"QReplace this lambda with method reference 'Practica04_ComponentesAvanzados::new'.(Œãü¬8‚«ç¬3

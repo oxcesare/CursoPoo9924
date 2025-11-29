@@ -1,0 +1,7 @@
+
+g	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(áäµ©ıÿÿÿÿ
+_
+java:S3252"IUse static access with "javax.swing.WindowConstants" for "EXIT_ON_CLOSE".(¢¡´
+Q	java:S1250"<This block of commented-out lines of code should be removed.(ÜØ©«
+e
+java:S1612]"JReplace this lambda with method reference 'Practica03_ManejoEventos::new'.(„ççûşÿÿÿÿ

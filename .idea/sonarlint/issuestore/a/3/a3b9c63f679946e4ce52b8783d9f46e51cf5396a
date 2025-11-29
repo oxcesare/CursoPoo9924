@@ -1,0 +1,13 @@
+
+\
+java:S1854"@Remove this useless assignment to local variable "tipoDeCocina".(îœÕ8¿Äıİª3
+l
+java:S1854"JRemove this useless assignment to local variable "ingredientesPreparados".(íëíìúÿÿÿÿ8Èâùİª3
+U	java:S106	"9Replace this use of System.out or System.err by a logger.(øºø¶8ç÷İª3
+Z	java:S106
+"9Replace this use of System.out or System.err by a logger.(íëíìúÿÿÿÿ8‡Áùİª3
+U	java:S106"9Replace this use of System.out or System.err by a logger.(ö›™8ÁÄıİª3
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(íëíìúÿÿÿÿ8ÁÄıİª3
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(ªû­Äÿÿÿÿÿ8ñÿİª3
+T	java:S106"9Replace this use of System.out or System.err by a logger.(îœÕ8ì‹„Şª3
+U	java:S106"9Replace this use of System.out or System.err by a logger.(Öå“‡8“ò„Şª3
