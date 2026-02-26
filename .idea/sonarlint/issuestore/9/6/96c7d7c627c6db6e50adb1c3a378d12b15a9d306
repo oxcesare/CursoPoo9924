@@ -1,0 +1,9 @@
+
+S	java:S106 "9Replace this use of System.out or System.err by a logger.(¦ä¿¡üÿÿÿÿ
+N	java:S106&"9Replace this use of System.out or System.err by a logger.(Á™†ã
+Z	java:S106'"9Replace this use of System.out or System.err by a logger.(ÅÓ´ëùÿÿÿÿ8¤Ùá‚­3
+Z	java:S106)"9Replace this use of System.out or System.err by a logger.(™¼åÃüÿÿÿÿ8Ôºâ‚­3
+L
+java:S1068"1Remove this unused "nombreCliente" private field.(£È«™ýÿÿÿÿ
+G
+java:S1068",Remove this unused "idPedido" private field.(ÅÅäˆùÿÿÿÿ

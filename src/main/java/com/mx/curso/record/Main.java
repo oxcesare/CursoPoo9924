@@ -11,5 +11,11 @@ public class Main {
         System.out.println(alumno.matricula()); // UX99992353
         System.out.println(alumno);             // Alumno[nombre=Cesar, matricula=UX99992353]
         System.out.println(alumno.getId());
+
+        //Usando el Record de Persona
+        Persona p1 = new Persona("Cesar", 38);
+
+
+
     }
 }

@@ -1,0 +1,12 @@
+
+S
+java:S1854"=Remove this useless assignment to local variable "producto2".(Ğİçå
+X
+java:S1854"=Remove this useless assignment to local variable "producto1".(ûœşşÿÿÿÿ
+I
+java:S1481".Remove this unused "producto1" local variable.(ûœşşÿÿÿÿ
+D
+java:S1481".Remove this unused "producto2" local variable.(Ğİçå
+N	java:S106"9Replace this use of System.out or System.err by a logger.(Ê×¾ı
+e
+java:S1128"CRemove this unused import 'java.util.function.DoubleToIntFunction'.(å¯ßÍşÿÿÿÿ8¬€­3

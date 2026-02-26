@@ -1,0 +1,96 @@
+El **Polimorfismo** es quizá el concepto más elegante de la POO. En griego significa "muchas formas".
+
+En el contexto de la **Inteligencia Artificial**, el polimorfismo permite que un mismo comando (como `ejecutarInferencia()`) se comporte de manera distinta dependiendo de qué tipo de modelo estemos usando en ese momento.
+
+Aquí tienes el ejemplo en Java:
+
+---
+
+### Ejemplo de Polimorfismo en Java: El "Cerebro" Multitarea
+
+#### 1. El Comportamiento Común (Interfaz o Clase Base)
+
+Definimos que todos los modelos deben poder "predecir", pero no decimos cómo.
+
+```java
+abstract class ModeloIA {
+    public abstract void predecir();
+}
+
+```
+
+#### 2. Diferentes Formas de Predecir (Polimorfismo)
+
+Cada clase hija implementa el método a su manera.
+
+```java
+class RedNeuronal extends ModeloIA {
+    @Override
+    public void predecir() {
+        System.out.println(">>> Ejecutando propagación hacia adelante (Forward Pass)...");
+    }
+}
+
+class ArbolDecision extends ModeloIA {
+    @Override
+    public void predecir() {
+        System.out.println(">>> Evaluando nodos de decisión y entropía...");
+    }
+}
+
+class AlgoritmoGenetico extends ModeloIA {
+    @Override
+    public void predecir() {
+        System.out.println(">>> Seleccionando mejores individuos de la población...");
+    }
+}
+
+```
+
+#### 3. Aplicación Práctica: El Poder del Polimorfismo
+
+Aquí es donde ocurre la magia: tratamos a diferentes objetos como si fueran del mismo tipo base.
+
+```java
+public class Main {
+    public static void main(String[] args) {
+        // Creamos una lista de diferentes modelos de IA
+        ModeloIA[] inventarioModelos = {
+            new RedNeuronal(),
+            new ArbolDecision(),
+            new AlgoritmoGenetico()
+        };
+
+        // POLIMORFISMO EN ACCIÓN:
+        // Una sola instrucción ('m.predecir()') genera 3 resultados distintos
+        System.out.println("--- Iniciando ciclo de inferencia ---");
+        for (ModeloIA m : inventarioModelos) {
+            m.predecir(); 
+        }
+    }
+}
+
+```
+
+---
+
+### Explicación para tus alumnos:
+
+Diles esto: **"El polimorfismo es como el botón de 'Reproducir' en un reproductor multimedia"**.
+
+* Si es una canción, el botón suena.
+* Si es un video, el botón muestra imágenes.
+* Si es un podcast, el botón reproduce voz.
+* **El botón es el mismo, pero la acción cambia según el archivo.**
+
+**¿Por qué es vital en IA?**
+Porque puedes construir un sistema (como el "Consultor IA" que vimos antes) que simplemente diga `modelo.predecir()`. No te importa si mañana inventan un algoritmo nuevo de IA, mientras ese algoritmo sepa cómo "predecir", tu sistema seguirá funcionando sin cambiar ni una sola línea de código del controlador principal.
+
+---
+
+### Diferencia rápida para tu clase:
+
+* **Herencia:** Es compartir el ADN (código) de un padre.
+* **Polimorfismo:** Es que cada hijo haga su propia versión de una misma orden.
+
+¿Te gustaría que para cerrar este ciclo de conceptos veamos el **Encapsulamiento** con un ejemplo de seguridad en llaves de API de IA?

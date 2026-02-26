@@ -1,0 +1,12 @@
+
+h
+java:S1192!"FDefine a constant instead of duplicating this literal "VERDE" 3 times.(âª­ƒÿÿÿÿÿ8ÁÕÓ­3
+s
+java:S3008"]Rename this field "TIEMPO_TOTAL_CICLO" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¿ ‚²
+w
+java:S1450"aRemove the "TIEMPO_TOTAL_CICLO" field and declare it as a local variable in the relevant methods.(¿ ‚²
+U	java:S1060"9Replace this use of System.out or System.err by a logger.(ú¤˜Ñ8ê–Ô­3
+U	java:S1068"9Replace this use of System.out or System.err by a logger.(ôı€Œ8µÕ­3
+Z	java:S106>"9Replace this use of System.out or System.err by a logger.(½œĞúøÿÿÿÿ8‚µÕ­3
+L
+java:S1068"6Remove this unused "TIEMPO_TOTAL_CICLO" private field.(¿ ‚²

@@ -1,0 +1,9 @@
+
+I
+java:S1121".Extract the assignment out of this expression.(ãÉ¦Èşÿÿÿÿ
+a
+java:S2259"FA "NullPointerException" could be thrown; "getArray" is nullable here.(ãÉ¦Èşÿÿÿÿ
+<
+java:S1168"&Return an empty array instead of null.(¥¹ï
+>	java:S108")Either remove or fill this block of code.(”ı¾
+S	java:S106"9Replace this use of System.out or System.err by a logger.(Œíù°úÿÿÿÿ

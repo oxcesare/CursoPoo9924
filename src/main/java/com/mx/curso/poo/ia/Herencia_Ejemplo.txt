@@ -1,0 +1,94 @@
+Para explicar **Herencia** en el contexto de Inteligencia Artificial, lo más efectivo es mostrar cómo los modelos de IA comparten una base común pero se especializan según su tarea.
+
+Imagina que tienes una base genérica para cualquier **Agente de IA** (que tiene un nombre y una versión) y luego creas versiones especializadas: una para **Chat** y otra para **Visión**.
+
+---
+
+### Ejemplo de Herencia en Java: Arquitectura de Agentes
+
+#### 1. La Superclase (La Base Común)
+
+Aquí definimos lo que **todos** los modelos de IA tienen por igual.
+
+```java
+// Superclase: Define la estructura base de cualquier IA
+class AgenteIA {
+    protected String nombre;
+    protected String version;
+
+    public AgenteIA(String nombre, String version) {
+        this.nombre = nombre;
+        this.version = version;
+    }
+
+    public void encender() {
+        System.out.println("Sistemas listos. Agente " + nombre + " activo.");
+    }
+}
+
+```
+
+#### 2. Las Subclases (Especialización)
+
+Usamos la palabra clave `extends` para reutilizar lo anterior y añadir lo nuevo.
+
+```java
+// Subclase 1: Hereda de AgenteIA y añade lógica de texto
+class AgenteChat extends AgenteIA {
+    public AgenteChat(String nombre, String version) {
+        super(nombre, version); // Llama al constructor de la superclase
+    }
+
+    public void generarRespuesta(String prompt) {
+        System.out.println(nombre + " analizando texto: " + prompt);
+        System.out.println("Respuesta: Hola, soy un modelo de lenguaje.");
+    }
+}
+
+// Subclase 2: Hereda de AgenteIA y añade lógica de imágenes
+class AgenteVision extends AgenteIA {
+    public AgenteVision(String nombre, String version) {
+        super(nombre, version);
+    }
+
+    public void detectarObjetos(String imagenRuta) {
+        System.out.println(nombre + " escaneando imagen en: " + imagenRuta);
+        System.out.println("Resultado: Se detectó un objeto 'Drone' con 98% de confianza.");
+    }
+}
+
+```
+
+#### 3. El Uso (Reutilización y Extensión)
+
+```java
+public class Main {
+    public static void main(String[] args) {
+        AgenteChat chatBot = new AgenteChat("Gemini-Nano", "v3.0");
+        AgenteVision camaraInteligente = new AgenteVision("DeepEye", "v1.2");
+
+        // Ambos pueden usar el método 'encender' porque lo heredaron
+        chatBot.encender();
+        camaraInteligente.encender();
+
+        // Cada uno usa su funcionalidad extendida
+        chatBot.generarRespuesta("¿Qué es la herencia?");
+        camaraInteligente.detectarObjetos("calle_central.jpg");
+    }
+}
+
+```
+
+---
+
+### Explicación para tus alumnos:
+
+Diles esto: **"La herencia es como la evolución biológica o las versiones de software"**.
+
+* **Reutilizar:** El `AgenteChat` no tuvo que programar de nuevo el atributo `nombre` ni el método `encender`. Ya los tenía "de familia".
+* **Extender:** El `AgenteVision` tomó lo que ya existía y le añadió la capacidad de "detectar objetos", algo que el agente base no sabía hacer.
+
+**¿Por qué es vital en IA?**
+Porque si mañana quieres crear un `AgenteAudio`, solo heredas de `AgenteIA` y programas la parte del sonido. No tienes que reinventar la rueda desde cero.
+
+¿Te gustaría que ahora pasemos al **Polimorfismo**, que es el siguiente paso lógico después de entender la Herencia?

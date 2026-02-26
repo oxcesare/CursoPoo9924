@@ -1,0 +1,9 @@
+
+h
+java:S2095"MUse try-with-resources or close this "FileInputStream" in a "finally" clause.(ú±°şÿÿÿÿ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(Ò¤Ê
+N	java:S106"9Replace this use of System.out or System.err by a logger.(µÏäñ
+^
+java:S1128"HRemove this unused import 'com.mx.curso.unidad2.excepciones.UsoScanner'.(¸’«ã
+U
+java:S1128":Remove this unused import 'java.io.FileNotFoundException'.(·î™ùÿÿÿÿ

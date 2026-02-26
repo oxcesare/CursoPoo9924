@@ -1,0 +1,20 @@
+
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(’ÚÀ’
+S
+java:S1854L"6Remove this useless assignment to local variable "c2".(×ØÃ8§¬„¯3
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(§‡ßÊøÿÿÿÿ8§¬„¯3
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(€ß£Ôüÿÿÿÿ8§¬„¯3
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(§‡ßÊøÿÿÿÿ8§¬„¯3
+Z	java:S106:"9Replace this use of System.out or System.err by a logger.(çÇã€şÿÿÿÿ8§¬„¯3
+Z	java:S106;"9Replace this use of System.out or System.err by a logger.(–ğéÿÿÿÿÿ8§¬„¯3
+U	java:S106<"9Replace this use of System.out or System.err by a logger.(£Î¥ñ8§¬„¯3
+U	java:S106@"9Replace this use of System.out or System.err by a logger.(æùà8§¬„¯3
+Z	java:S106B"9Replace this use of System.out or System.err by a logger.(·—Âéıÿÿÿÿ8§¬„¯3
+Z	java:S106F"9Replace this use of System.out or System.err by a logger.(¹›— ùÿÿÿÿ8§¬„¯3
+D
+java:S1481L"'Remove this unused "c2" local variable.(×ØÃ8§¬„¯3
+U	java:S106O"9Replace this use of System.out or System.err by a logger.(Ÿ’•Ø8§¬„¯3
+U	java:S106U"9Replace this use of System.out or System.err by a logger.(»—8§¬„¯3
+U	java:S106Z"9Replace this use of System.out or System.err by a logger.(§´åø8§¬„¯3
+U	java:S106["9Replace this use of System.out or System.err by a logger.(ƒ§—8§¬„¯3
+U	java:S106^"9Replace this use of System.out or System.err by a logger.(ÚÄÅÄ8§¬„¯3

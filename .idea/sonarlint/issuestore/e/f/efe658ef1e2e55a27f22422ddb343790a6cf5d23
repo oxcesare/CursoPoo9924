@@ -1,0 +1,9 @@
+
+n	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(µς¬λÿÿÿÿÿ8‡Ώη¬3
+f
+java:S3252"IUse static access with "javax.swing.WindowConstants" for "EXIT_ON_CLOSE".(Ά΅΄8Ύ‡Ώη¬3
+T
+java:S6126<"2Replace this String concatenation with Text block.(ΌΎκωÿÿÿÿ8Ρ‡Ώη¬3
+Z	java:S106C"9Replace this use of System.out or System.err by a logger.(­ρόςϋÿÿÿÿ8Ò‡Ώη¬3
+h
+java:S1612J"KReplace this lambda with method reference 'Practica05_Modularizacion::new'.(µτΠ“8Υ‡Ώη¬3

@@ -1,0 +1,10 @@
+
+T
+java:S1854"?Remove this useless assignment to local variable "descripcion".(€òæ
+Z	java:S106
+"9Replace this use of System.out or System.err by a logger.(úš‹ ıÿÿÿÿ8ÁÀ±¹3
+E
+java:S1481"0Remove this unused "descripcion" local variable.(€òæ
+U	java:S106"9Replace this use of System.out or System.err by a logger.(‘‘©™8–•È±¹3
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(Ûíçòÿÿÿÿÿ8õÍÈ±¹3
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(…êÇµüÿÿÿÿ8÷ÍÈ±¹3

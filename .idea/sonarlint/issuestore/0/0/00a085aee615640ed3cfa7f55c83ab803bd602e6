@@ -1,0 +1,13 @@
+
+R
+java:S1610"7Convert the abstract class "Vehicle" into an interface.(æ”Öşùÿÿÿÿ
+]
+java:S2094"BRemove this empty class, write its code or make it an "interface".(æ”Öşùÿÿÿÿ
+S
+java:S1854"6Remove this useless assignment to local variable "s2".(¼»®Á8˜Ã£¢´3
+W
+java:S1854"5Remove this useless assignment to local variable "s".(ÿô¥ìøÿÿÿÿ8”ÿ¢´3
+H
+java:S1481"&Remove this unused "s" local variable.(ÿô¥ìøÿÿÿÿ8›ÿ¢´3
+D
+java:S1481"'Remove this unused "s2" local variable.(¼»®Á8˜Ã£¢´3
